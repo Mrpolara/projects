@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eCommerce web</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="script/script.js"></script>
+</head>
+
+<body>
+  <form>
+    <div class="ChoiceSection section">
+      <div class="ImgCheckboxName" id="laptop-div">
+        <img src="images/img1.png" alt="laptop" class="ImgClass" />
+        <div class="CheckboxName">
+          <input type="checkbox" name="laptop-check" id="laptop" onchange="addOrRemove(100)" />
+          <label for="laptop"> Laptop : 100 </label>
+        </div>
+      </div>
+
+      <div class="ImgCheckboxName" id="nintendo-div">
+        <img src="images/img2.png" alt="nintendo" class="ImgClass" />
+        <div class="CheckboxName">
+          <input type="checkbox" name="nintendo-check" id="nintendo" onchange="addOrRemove(200)" />
+          <label for="nintendo"> Nintendo Switch : 200</label>
+        </div>
+      </div>
+      <div class="ImgCheckboxName" id="vr-div">
+        <img src="images/img3.jpg" alt="vr" class="ImgClass" />
+        <div class="CheckboxName">
+          <input type="checkbox" name="vr-check" id="vr" onchange="addOrRemove(300)" />
+          <label for="vr"> VR : 300 </label>
+        </div>
+      </div>
+
+      <div class="ImgCheckboxName" id="playstaion-div">
+        <img src="images/img4.jpg" alt="playstaion" class="ImgClass" />
+        <div class="CheckboxName">
+          <input type="checkbox" name="playstaion-check" id="playstaion" onchange="addOrRemove(400)" />
+          <label for="playstation"> Play Station : 400 </label>
+        </div>
+      </div>
+
+      <div class="ImgCheckboxName" id="xbox-div">
+        <img src="images/img5.png" alt="xbox" class="ImgClass" />
+        <div class="CheckboxName">
+          <input type="checkbox" name="xbox" id="xbox" onchange="addOrRemove(500)" />
+          <label for="xbox"> Xbox Price : 500 </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="billSection">
+      <div id="underBillSection">
+        <div id="totalAmountSection">
+          <label for="amountText">Total amount : </label>
+          <p id="amountText"></p>
+        </div>
+        <div id="discount-section">
+          <label for="discountText">Discount on your selected items : 12%</label>
+          <p id="discountText"></p>
+        </div>
+        <div id="totalPayableAmountSection">
+          <label for="totalPayableAmountText">Total payable amount : </label>
+          <p id="totalPayableAmountText"></p>
+        </div>
+        <input id="resetBTN" type="reset" value="Reset">
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>

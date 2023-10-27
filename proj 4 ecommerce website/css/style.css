@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.ImgClass {
+    height: 300px important;
+    width: 300px important;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+}
+
+.ImgCheckboxName {
+    border: 1px solid black;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.CheckboxName {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.CheckboxName label {
+    margin: 5px;
+}
+
+.ChoiceSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#underBillSection {
+    border: 1px solid black;
+    margin: 10%;
+    padding: 10px;
+    display: flex;
+    width: 100vh;
+    flex-direction: column;
+}
+
+.billSection {
+    justify-content: center;
+}
+
+p {
+    display: inline;
+}
+
+#resetBTN{
+    border-bottom: none;
+    border: 1px solid black;
+    width: 100px;
+}

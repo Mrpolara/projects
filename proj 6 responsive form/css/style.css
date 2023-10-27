@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/img1.png');
+    background-repeat: no-repeat;
+}
+
+#mostOuterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+#heding {
+    text-align: center;
+    background-color: #deb887;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+}
+
+#mainSect {
+    display: flex;
+    flex-direction: column;
+    background-color:#ff7f50;
+    margin-top: 8px;
+    padding: 3%;
+}
+
+#name, #nameInp{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#name label, #nameInp input {
+    display: block;
+    width: 25%;
+    margin-right: 8px;
+}
+
+#foot {
+    margin-top: 8px;
+    background-color: chocolate;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 3%;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 50%;
+}
+
+input[type="submit"] {
+    width: 25%;
+    margin-top: 2px;
+    align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #mostOuterDiv {
+        margin: 10%
+    }
+    input[type="text"], input[type="email"], input[type="password"], select {
+        width: 100%;
+    }
+    #name label, #nameInp input {
+        display: block;
+        width: 100%;
+        margin-right: 8px;
+    }
+    h1 {
+    word-break: break-all;
+    }
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive form</title>
+</head>
+
+<body>
+    <div id="mostOuterDiv">
+        <h1 id="heding">Responsive Registration Form</h1>
+
+        <div id="mainSect">
+            <input type="email" name="email" id="email" placeholder="Enter your eamil address" />
+            <input type="password" name="password" id="password" placeholder="Enter your password" />
+            <input type="text" name="repass" id="repass" placeholder="Confirm your password" />
+
+            <div id="name">
+                <label for="fanme">First name</label>
+                <label for="lname">Last name</label>
+            </div>
+            <div id="nameInp">
+                <input
+                    type="text" name="fanme" id="fanme"
+                    placeholder="Enter first name"
+                />
+                <input
+                    type="text" name="lname" id="lname"
+                    placeholder="Enter last name"
+                />
+            </div>
+
+            <div id="gender">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+
+            <select name="country" id="country">
+                <option value="notSelected" selected>--Select the country--</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <input type="submit" value="register">
+
+            <p>
+            </p>
+        </div>
+        <div id="foot">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque aut et, quaerat consequuntur aliquid sint dolores?
+        </div>
+    </div>
+</body>
+
+</html>
